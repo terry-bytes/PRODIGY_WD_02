@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+#display {
+	color:  black; 
+    font-weight: bold; 
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+	background-color: hsl(12, 100%, 57%); 
+    color: white; 
+}
+
+#lapTimes {
+    list-style: none;
+    padding: 0;
+	 font-weight: bold;
+}
